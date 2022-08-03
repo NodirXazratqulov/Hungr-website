@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url("./images/Rectangle\ 19.png");
+    height: 140vh;
+    background-size: cover;
+    color: #fff;
+}
+.header-logo h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header-nav ul{
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+.header-nav ul li{
+    margin-right: 40px;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: .5s ease;
+    position: relative;
+}
+.header-but h5{
+    margin-top: 10px;
+}
+.header-but h5 a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: .3s ease;
+}
+.header-nav ul li a:before{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transition: .5s ease;
+    border-radius: 5px;
+}
+.header-nav ul li:hover a:before{
+    width: 100%;
+    transform: translateX(50%);
+    transform: translateX(-50%);
+}
+
+
+.header-but h5 a:hover{
+    background-color: rgba(51, 51, 51, 0.349);
+    color: #fff;
+}
+.banner {
+    position: relative;
+}
+.banner .banner-right .rasm2{
+    width: 550px;
+    height: 350px;
+    position: relative;
+    bottom: 110px;
+    left: 110px;
+}
+
+.banner .banner-right .rasm1{
+    width: 250px;
+    position: relative;
+    bottom: 190px;
+    left: 220px;
+    z-index: 1;
+}
+.banner .rasm3{
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 500px;
+}
+.banner .rasm4{
+    width: 180px;
+    position: relative;
+    left: 140px;
+    bottom: 270px;
+}
+.banner h3{
+    margin-top: 130px;
+    font-size: 45px;
+}
+.banner p{
+    margin-top: 30px;
+}
+.banner .banner-flex{
+    margin-top: 40px;
+}
+
+.about{
+    position: relative;
+}
+
+.features{
+    position: relative;
+    top: 100px;
+}
+.features-img{
+    position: relative;
+    top: 0;
+    right: 80px;
+}
+.features-img img{
+    position: absolute;
+    
+}
+.features-img .img1{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.features-img .img2{
+    position: relative;
+    left: 0;
+    bottom: 28px;
+}
+.features .tel img{
+    width: 320px;
+    position: relative;
+    left: 0;
+    bottom: 70px;
+}
+.always{
+    background-image: url('./images/Rectangle\ 6\ \(1\).png');
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+}
+.always .roww{
+    display: flex;
+    justify-content: space-between !important;
+    margin-top: 75px;
+}
+.gallery h4{
+    margin-top: 30px;
+}
+.gallery .col-4 a{
+    text-decoration: none;
+}
+footer{
+    background-image: url('./images/Rectangle\ 7\ \(3\).png');
+    background-size: cover;
+    
+}
